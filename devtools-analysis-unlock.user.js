@@ -1,13 +1,10 @@
 // ==UserScript==
 // @name         ntk devtools analysis unlock
 // @namespace    ntk-debug
-// @version      1.1.0
+// @version      1.1.1
 // @description  First-party debugging helper for ntk. Disables local DevTools blockers without touching fetch/localStorage/EventTarget prototypes.
-// @match        *://sbxh5.com/*
-// @match        *://www.sbxh5.com/*
-// @match        *://dev2.ntk01.com/*
-// @match        *://localhost:4011/*
-// @match        *://127.0.0.1:4011/*
+// @include      *://sbxh*.com/*
+// @include      *://*.sbxh*.com/*
 // @run-at       document-start
 // @grant        unsafeWindow
 // ==/UserScript==
